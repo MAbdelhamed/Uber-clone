@@ -11,13 +11,13 @@ margin: 0;
     position: absolute;
     top: 0;
     left: 0;
-     background-color: rgb(228, 222, 222);
+     background-color: rgb(255, 255, 255);
     flex-direction: column;
     flood-opacity: 0.5; 
-     margin-left: 10rem;
-    margin-top: 10rem;
-    padding-bottom: 1rem;
-    border-radius: 5%;
+     margin-left: 6rem;
+    margin-top: 8rem;
+    padding-bottom: 2rem;
+    
 
     
     
@@ -32,25 +32,22 @@ margin: 0;
 
 }
 header li{
-    margin: 1rem;
-    display: inline-block;
-    font-family: cursive;
-    font-style: italic;
-    font-weight: bold;
+    padding: 0.8rem;
+    padding-bottom: 0%;
+     display: inline-block; 
+     font-family: cursive;
+   
     
 }
 .services a{
     text-decoration: none;
     color: black;
 }
-.mid-paraghraph{
-    padding-left: 1.3rem;
-    
-    
-}
+
 .bottum-part p{
-    border-top: rgb(201, 195, 195);
-    border-top-style: solid;
+    border-top: rgb(243, 239, 239);
+    border-top-style:inset;
+    
     
     font-family: sans-serif;
     font-size: 2rem;
@@ -61,7 +58,7 @@ header li{
 
 article div{
     
-    margin-top: 10rem;
+    
     background-image: url("1885017.jpeg");
     background-size: cover;
     
@@ -79,14 +76,17 @@ section{
     margin-top: 5rem;
 }
 
-@media screen and (max-width: 600px) {
+ 
+    
+
+@media (max-width: 600px) {
    
     .contain{
         width: 100%;
         position: sticky;
         top: 0;
         left: 0;
-         background-color: rgb(228, 222, 222);
+        background-color: rgb(255, 255, 255);
         flex-direction: column;
         flood-opacity: 0.5; 
          padding-left: 2rem;
@@ -95,6 +95,18 @@ section{
         margin: 0;
         
     }
+    .bottum-part p{
+        border-top: rgb(243, 239, 239);
+        border-top-style:inset;
+        
+        
+        font-family: sans-serif;
+        font-size: 2rem;
+        padding: 1.5rem;
+        
+        
+    }
+
 
     header img{
         display: block;
@@ -110,21 +122,38 @@ section{
     }
 }
 
-@media  (min-width: 600px) and (max-width: 1024px) {
+@media  (min-width: 600px) and (max-width: 1024px)  {
     .contain{
         position: absolute;
-        height: 70%;
-        overflow-y: scroll;
+        height: fit-content;
+        
         top: 0;
         left: 0;
-         background-color: rgb(228, 222, 222);
+        background-color: rgb(255, 255, 255);
         flex-direction: column;
         flood-opacity: 0.5; 
          margin-left: 3rem;
          margin-top: 4rem;
-        border-radius: 5%;
+        padding-bottom: 1rem;
     
         
         
     }
+   
+    .contain p{
+        font-size: 0.6rem;
+    }
+    .bottum-part p{
+        border-top: rgb(243, 239, 239);
+        border-top-style:inset;
+        
+        font-weight: 700;
+        font-family: sans-serif;
+        font-size: 1rem;
+        padding:  .5rem;
+        padding-left: 2rem;
+        
+        
+    }
 }
+
